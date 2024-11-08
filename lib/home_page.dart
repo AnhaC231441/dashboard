@@ -12,12 +12,12 @@ class HomePage extends StatelessWidget {
   ];
 
   List titles=[
-    "Customers",
-    "Suppliers",
-    "Products",
-    "Pos",
-    "Expense",
-    "Orders",
+    "CUSTOMERS",
+    "SUPPLIERS",
+    "PRODUCTS",
+    "POS",
+    "EXPENSE",
+    "ORDERS",
   ];
 
 
@@ -131,8 +131,8 @@ class HomePage extends StatelessWidget {
                                   boxShadow: [
                                     BoxShadow(
                                       color:Colors.black12,
-                                      spreadRadius: 1,
-                                     // blurRadius: 13,
+
+                                      blurRadius: 10,
                                     ),
                                  ],
                               ),
@@ -140,12 +140,12 @@ class HomePage extends StatelessWidget {
                                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                                 children: [
                                   Image.asset(imgData[index],
-                                  width: 140,
+                                  width: 180,
                                   ),
                                   Text(
                                     titles[index],
                                     style: TextStyle(
-                                      fontSize: 20,color: Colors.green,fontWeight: FontWeight.w500
+                                      fontSize: 20,color: Colors.green,fontWeight: FontWeight.w600
 
                                     ),
                                   ),
