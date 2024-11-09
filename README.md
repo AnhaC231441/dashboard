@@ -1,9 +1,8 @@
 # dashboard
 
 A new Flutter project.
-![images](assets/images/img.png)
-![images](assets/images/img_1.png)
 
+![screenshot](assets/images/screenshot.jpeg)
 ## Getting Started
 
 This project is a starting point for a Flutter application.
